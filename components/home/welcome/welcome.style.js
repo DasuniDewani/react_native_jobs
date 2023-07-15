@@ -5,7 +5,6 @@ import { COLORS, FONT, SIZES } from "../../../constants";
 const styles = StyleSheet.create({
   container: {
     width: "100%",
-    backgroundColor: "red"
   },
   userName: {
     fontFamily: FONT.regular,
@@ -57,6 +56,9 @@ const styles = StyleSheet.create({
     width: "100%",
     marginTop: SIZES.medium,
   },
+
+  /*The code you provided is an example of a function that 
+  returns a style object for a tab based on its active state.*/
   tab: (activeJobType, item) => ({
     paddingVertical: SIZES.small / 2,
     paddingHorizontal: SIZES.small,

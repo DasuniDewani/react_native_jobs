@@ -9,7 +9,7 @@ const Home = () => {
 const router = useRouter();
     return (
         <SafeAreaView style = {{flex:1, backgroundColor:COLORS.lightWhite}}>
-            <Text>home</Text>
+            {/* <Text>home</Text> */}
             <Stack.Screen
                 options=
                 {{
